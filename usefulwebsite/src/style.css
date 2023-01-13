@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Reggae+One");
+
+body {
+    background-image: url(back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background: linear-gradient(rgb(58, 224, 58), yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Reggae One', cursive;
+
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(skyblue, purple, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Nerko One', cursive;
+}
+
+button {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(221, 77, 221);
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+div {
+    text-align: center;
+}
